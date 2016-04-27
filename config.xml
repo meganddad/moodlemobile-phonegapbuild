@@ -5,10 +5,10 @@
         id        = "uk.co.wavesandmeans.orals"
         versionCode = "2011"
         version   = "3.0.0">
-    <name>iNavigate</name>
+    <name>iNavigate demo</name>
 
     <description>
-        Official App for iNavigate
+        Official App for iNavigate demo
     </description>
 
     <author href="http://www.vibidsoft.com" email="harshil@vibidsoft.com">
