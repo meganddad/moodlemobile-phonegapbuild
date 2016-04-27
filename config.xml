@@ -21,6 +21,7 @@
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
+    <platform name="winphone" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
