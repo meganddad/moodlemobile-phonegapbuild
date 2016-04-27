@@ -22563,7 +22563,7 @@ angular.module('mm.addons.remotestyles')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.moodlemobile",
+    "app_id" : "uk.co.wavesandmeans.orals",
     "versioncode" : "2011",
     "versionname" : "3.0.0",
     "cache_expiration_time" : 300000,
