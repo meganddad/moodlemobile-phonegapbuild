@@ -21,7 +21,7 @@
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
-    <platform name="winphone" />
+    
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
@@ -79,17 +79,6 @@
     <icon src="resources/ios/icon/icon-57@2x.png"         gap:platform="ios"      width="114" height="114" />
     <icon src="resources/ios/icon/icon-72@2x.png"         gap:platform="ios"      width="144" height="144" />
     
-     <icon src="icon.png" platform="winphone" />
-     <icon src="tileicon.png" platform="winphone" role="background" />
-     <icon platform="winphone" width="44" height="44" src="resources/winphone/icon/Square44x44Logo.scale-100.png" />
-   <icon platform="winphone" width="106" height="106" src="resources/winphone/icon/Square44x44Logo.scale-240.png" />
-<icon platform="winphone" width="150" height="150" src="resources/winphone/icon/Square150x150Logo.scale-100.png" />
-<icon platform="winphone" width="360" height="360" src="resources/winphone/icon/Square150x150Logo.scale-240.png" />
-<icon platform="winphone" width="71" height="71" src="resources/winphone/icon/Square71x71Logo.scale-100.png" />
-<icon platform="winphone" width="170" height="170" src="resources/winphone/icon/Square71x71Logo.scale-240.png" />
-<icon platform="winphone" width="310" height="150" src="resources/winphone/icon/Wide310x150Logo.scale-100.png" />
-<icon platform="winphone" width="744" height="360" src="resources/winphone/icon/Wide310x150Logo.scale-240.png" />
-
 
     <gap:splash src="splash.png" />
     <gap:splash src="resources/android/splash/drawable-land-ldpi-screen.png"      gap:platform="android" gap:qualifier="land-ldpi"/>
@@ -117,8 +106,7 @@
     <gap:splash src="resources/ios/splash/Default@2x~iphone.png"          gap:platform="ios" width="640" height="960"/>
     <gap:splash src="resources/ios/splash/Default~iphone.png"             gap:platform="ios" width="320" height="480"/>
     
-    <gap:splash src="resources/winphone/splash/SplashScreenPhone.scale-240.png"  gap:platform="winphone" width="1152" height="1920" />
-    <gap:splash src="resources/winphone/splash/splash.png" gap:platform="winphone" />
+   
 
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" />
